@@ -19,7 +19,7 @@ In this example we will break down creating a new post on your computer. We will
 
 This section provides step-by-step instructions on the setup required to test your website locally. You program the site and view it locally in a browser. This will make more sense later. For now we need to install several programs to help us run the website locally.
 
-![website_screenshot](/assets/images/website_screenshot.png){:.border}
+![website_screenshot](assets/images/website_screenshot.png){:.border}
 
 ## WSL: Windows Subsystem for Linux
 
