@@ -2,14 +2,14 @@
 layout: article
 title: Install/Configure Git
 header:
-  theme: dark
-  background: 'linear-gradient(135deg, rgb(34, 139, 87), rgb(139, 34, 139))'
+  # theme: dark
+  # background: 'linear-gradient(135deg, rgb(175, 234, 255), rgb(125, 255, 0))'
 article_header:
   type: overlay
   theme: dark
   background_color: '#203028'
   background_image:
-    gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
+    gradient: 'linear-gradient(135deg, rgba(0, 153, 255 , .3), rgba(255, 255, 0, .2))'
     src: /assets/images/bg.jpg
 ---
 
