@@ -22,7 +22,7 @@ In this example we will break down creating a new post on your computer. We will
 This section provides step-by-step instructions on the setup required to test your website locally. You program the site and view it locally in a browser. This will make more sense later. For now we need to install several programs to help us run the website locally.
 
 ![website_screenshot](/gooseberrygoose/assets/images/website_screenshot.png){:.border}
-
+![test]({{site.url}}/assets/images/webscreenshot.png){:.border}
 ### WSL: Windows Subsystem for Linux
 
 The main issue with windows is its inability to make running a server easy. More specifically most of the internet prefers opensource alternatives. A common developer platform is linux. Thankfully, recently microsoft ended its war on linux and decided to integrate the operating system into itself. This allowed users on windows to run software that was built for linux.
