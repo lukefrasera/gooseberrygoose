@@ -73,5 +73,53 @@ The next step to building your website locally is installing `Ruby`. Ruby is an 
 
 ## Install Mac - OSX
 
+The Mac installation is much more simple. To install jekyll on mac we will first open up a terminal this can be done by opening the search bar and typing terminal. when you have opened the terminal we can begin.
+
+### Install Home Brew
+
+In the terminal you will type these commands:
+
+```bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+This will setup homebrew on your system.
+
+### Install ruby
+
+In the terminal you will type these commands:
+
+```bash
+brew install ruby
+```
+
+Next we will setup an environment variable to make using ruby much easier from the terminal..
+
+```bash
+echo export PATH=/usr/local/opt/ruby/bin:$PATH >> ~/.bashrc
+exit
+```
+
+The above commands will result in the terminal window closing. You will want to reopen a new terminal window now. This was necessary to reload the terminal environment to include the change we just made.
+
+Now, lets verify that the installation was successful.
+
+```bash
+ruby -v
+```
+
+This should output a result that shows the current version of ruby. Otherwise, you will get an error.
+
+### Install Jekyll
+
+We will use the ruby install from before to install jekyll
+
+```bash
+gem install --user-install bundler jekyll
+```
+
+Now you should be all set to work with jekyll on your computer.
+
+Next you will want to [install git]({% post_url 2019-08-26-install-git %})
 
 <!--more-->
